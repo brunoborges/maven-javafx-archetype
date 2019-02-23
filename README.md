@@ -1,8 +1,8 @@
-# maven-openjfx-archetype
+# maven-javafx-archetype
 
-A Maven Archetype for OpenJFX (JavaFX) starter projects. For more information, visit [OpenJFX.io](https://openjfx.io). The code sample in this project is based on the [HelloFX example](https://github.com/openjfx/samples/tree/6226973589d905a77326c0391ac3fbbc4ca7d3cc/HelloFX/Maven).
+A Maven Archetype for JavaFX starter projects. For more information, visit the [OpenJFX.io](https://openjfx.io) project. The code sample in this project is based on the [HelloFX example](https://github.com/openjfx/samples/tree/6226973589d905a77326c0391ac3fbbc4ca7d3cc/HelloFX/Maven).
 
-[![Build Status](https://dev.azure.com/brunoborges-github/maven-openjfx-archetype/_apis/build/status/brunoborges.maven-openjfx-archetype?branchName=master&label=Build)](https://dev.azure.com/brunoborges-github/maven-openjfx-archetype/_build/latest?definitionId=2&branchName=master)
+[![Build Status](https://dev.azure.com/brunoborges-github/maven-javafx-archetype/_apis/build/status/brunoborges.maven-javafx-archetype?branchName=master&label=Build)](https://dev.azure.com/brunoborges-github/maven-javafx-archetype/_build/latest?definitionId=2&branchName=master)
 
 ## Requirements
 
@@ -16,9 +16,11 @@ Run the following command:
 ```
 mvn archetype:generate                                  \
   -DarchetypeGroupId=io.brunoborges                     \
-  -DarchetypeArtifactId=maven-openjfx-archetype         \
+  -DarchetypeArtifactId=maven-javafx-archetype          \
   -DarchetypeVersion=11.0.2-SNAPSHOT
 ```
+
+Provide input with project information.
 
 ## Run the project
 
