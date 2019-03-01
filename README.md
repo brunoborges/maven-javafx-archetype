@@ -9,6 +9,16 @@ A Maven Archetype for JavaFX starter projects. For more information, visit the [
 - Maven 3 (or later)
 - OpenJDK 11 (or later)
 
+## Install the Archetype
+
+Before you can create projects with this archetype, you must clone thhe repository and install it in your local Maven repository. To do so, follow these steps:
+
+```
+git clone https://github.com/brunoborges/maven-javafx-archetype.git
+cd maven-javafx-archetype
+mvn install
+```
+
 ## Create a project
 
 Run the following command:
